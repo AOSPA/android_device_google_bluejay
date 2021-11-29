@@ -72,6 +72,9 @@ PRODUCT_PACKAGES += \
     nos_app_keymaster:64 \
     nos_app_weaver:64
 
+# Properties
+TARGET_VENDOR_PROP := device/google/bluejay/vendor.prop
+
 # Radio
 DEVICE_MANIFEST_FILE += \
     device/google/bluejay/manifest_radio.xml
