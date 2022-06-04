@@ -13,16 +13,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-TARGET_BOARD_INFO_FILE := device/google/bluejay/board-info.txt
-TARGET_BOOTLOADER_BOARD_NAME := bluejay
-TARGET_SCREEN_DENSITY := 420
-USES_DEVICE_GOOGLE_BLUEJAY := true
 
-include device/google/gs101/BoardConfig-common.mk
-include device/google/gs101/wifi/BoardConfig-wifi.mk
--include vendor/google_devices/gs101/prebuilts/BoardConfigVendor.mk
--include vendor/google_devices/bluejay/proprietary/BoardConfigVendor.mk
-
-$(call soong_config_set,google3a_config,target_device,bluejay)
-
-include device/google/bluejay/bluejay/BoardConfigAOSPA.mk
+include device/google/bluejay/BoardConfigAOSPA.mk
