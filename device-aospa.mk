@@ -20,3 +20,8 @@ PRODUCT_COPY_FILES += \
 
 # Properties
 TARGET_VENDOR_PROP := device/google/bluejay/vendor.prop
+
+# Soong Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    system/bt/conf \
+    packages/apps/Bluetooth
