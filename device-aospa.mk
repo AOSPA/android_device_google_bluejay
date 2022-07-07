@@ -25,6 +25,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES := \
     HbmSVManagerOverlay
 
+# Kernel
+TARGET_PREBUILT_KERNEL := device/google/bluejay-kernel/Image.lz4
+
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     system/bt/conf \
