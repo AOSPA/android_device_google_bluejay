@@ -25,6 +25,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES := \
     HbmSVManagerOverlay
 
+# Kernel
+TARGET_PREBUILT_KERNEL := device/google/raviole-kernel/Image.lz4
+
 # Properties
 TARGET_VENDOR_PROP := device/google/bluejay/vendor.prop
 
