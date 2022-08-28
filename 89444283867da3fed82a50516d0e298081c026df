@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9cc093b9_e49058ed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-08-28T02:06:53Z",
+      "side": 1,
+      "message": "seems like you could do some of this kind of stuff in gs101 instead if it\u0027s the same on both devices...",
+      "revId": "89444283867da3fed82a50516d0e298081c026df",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
