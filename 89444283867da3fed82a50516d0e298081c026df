@@ -34,6 +34,24 @@
       "parentUuid": "9cc093b9_e49058ed",
       "revId": "89444283867da3fed82a50516d0e298081c026df",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "26dfce5d_106352a1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2022-08-29T03:25:45Z",
+      "side": 1,
+      "message": "not necessarily.  you can have multiple vendor props.  you also don\u0027t need to manually define the flag in the device tree, you only do in other trees such as common.",
+      "parentUuid": "4da7cc47_d062c114",
+      "revId": "89444283867da3fed82a50516d0e298081c026df",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
