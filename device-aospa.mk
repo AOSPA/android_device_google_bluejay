@@ -21,6 +21,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.euicc.xml
 
+# Kernel
+TARGET_PREBUILT_KERNEL := device/google/bluejay-kernel/Image.lz4
+
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     system/bt/conf \
