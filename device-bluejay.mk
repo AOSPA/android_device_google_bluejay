@@ -192,6 +192,10 @@ PRODUCT_PACKAGES += \
     NoCutoutOverlay \
     AvoidAppsInCutoutOverlay
 
+# HBM
+PRODUCT_PACKAGES += \
+    HbmSVManagerOverlay
+
 # SKU specific RROs
 PRODUCT_PACKAGES += \
     SettingsOverlayGB17L \
