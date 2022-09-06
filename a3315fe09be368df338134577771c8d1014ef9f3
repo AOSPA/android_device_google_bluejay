@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0eeb89b3_182d763b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-09-06T05:47:56Z",
+      "side": 1,
+      "message": "you dont need ",
+      "revId": "a3315fe09be368df338134577771c8d1014ef9f3",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8b202dd4_e9ea3b7f",
+        "filename": "device-aospa.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-09-06T05:47:56Z",
+      "side": 1,
+      "message": "no need to mention all versions, 1.6 will build everything\nsame everywhere",
+      "revId": "a3315fe09be368df338134577771c8d1014ef9f3",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
