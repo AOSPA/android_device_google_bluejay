@@ -119,7 +119,8 @@ PRODUCT_PACKAGES += \
     android.hardware.tetheroffload.config@1.0.vendor:64 \
     android.hardware.tetheroffload.control@1.1.vendor:64 \
     android.hardware.weaver@1.0.vendor:64 \
-    android.hardware.wifi@1.6.vendor:64
+    android.hardware.wifi@1.6.vendor:64 \
+    com.google.hardware.pixel.display-V4-ndk.vendor
 
 # Misc
 PRODUCT_PACKAGES += \
