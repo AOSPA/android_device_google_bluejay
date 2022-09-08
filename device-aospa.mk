@@ -72,6 +72,10 @@ PRODUCT_PACKAGES += \
     nos_app_keymaster:64 \
     nos_app_weaver:64
 
+# Radio
+DEVICE_MANIFEST_FILE += \
+    device/google/bluejay/manifest_radio.xml
+
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     system/bt/conf \
