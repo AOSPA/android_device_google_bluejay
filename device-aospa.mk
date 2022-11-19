@@ -65,6 +65,10 @@ PRODUCT_PACKAGES += \
     nos_app_keymaster:64 \
     nos_app_weaver:64
 
+# Overlays
+PRODUCT_PACKAGES += \
+    AOSPAFrameworksOverlayBluejay
+
 # Telephony
 PRODUCT_PACKAGES += \
     ImsServiceEntitlement \
